@@ -7,9 +7,9 @@ This interactive Tableau dashboard provides an in-depth look at diabetes prevale
 The data was collected from Kaggle.com:  https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset
 
 The data needed to be converted from ‘1’s and ‘0’s to strings in the ‘hypertension’, ‘heart_disease’, and ‘diabetes’ columns.  The manipulation and changing of the data were done with jupyter notebook:
-- The ‘hypertension’ column was labeled as ‘0’ for ‘not hypertensive’ and ‘1’  for ‘hypertensive’: 
-- The ‘heart_disease’ column was labeled as ‘0’ for ‘no heart disease’ and ‘1’  for ‘heart disease’: 
-- The ‘diabetes’ column was labeled as ‘0’ for ‘not diabetic’ and ‘1’  for ‘diabetic’: 
+- The ‘hypertension’ column was labeled as ‘0’ for ‘not hypertensive’ and ‘1’  for ‘hypertensive’
+- The ‘heart_disease’ column was labeled as ‘0’ for ‘no heart disease’ and ‘1’  for ‘heart disease’
+- The ‘diabetes’ column was labeled as ‘0’ for ‘not diabetic’ and ‘1’  for ‘diabetic’
 
 After uploading the csv, I noticed the visualizations would be easier to work with and manipulate if I created reference ranges for the ‘bmi’, ‘HbA1c_level’, and ‘blood_glucose_level’.  The reference ranges that I used were referenced from the CDC, National Institutes of Health, and the World Health Organization.
 
